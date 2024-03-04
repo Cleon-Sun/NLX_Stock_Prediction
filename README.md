@@ -6,14 +6,14 @@ This project aims to predict GameStop's stock prices by integrating API scraping
 
 ## Steps and Approaches
 
-### Data Scraping
+**Data Scraping**
 Stock Data: Utilized yfinance to scrape historical stock data.
 Reddit Data: Scraped Reddit data using API.
 
-### Sentiment Analysis
-Sentiment Analysis: Fine-tuned a pre-trained BERT model with labeled posts to predict sentiment labels and convert posts into embeddings.
+**Sentiment Analysis** Sentiment Analysis: Fine-tuned a pre-trained BERT model with labeled posts to predict sentiment labels and convert posts into embeddings.
+![Possibility of Reddit Posts of the Day Belonging to Labels](picture1.png)
 
-### Stock Prediction
+**Stock Prediction**
 Historical Data Prediction: Used a 2-layer LSTM to predict stock prices based on historical data.
 Sentiment-Incorporated Prediction: Enhanced prediction by incorporating sentiment analysis results into the LSTM model.
 

@@ -11,7 +11,7 @@ Stock Data: Utilized yfinance to scrape historical stock data.
 Reddit Data: Scraped Reddit data using API.
 
 **Sentiment Analysis** Sentiment Analysis: Fine-tuned a pre-trained BERT model with labeled posts to predict sentiment labels and convert posts into embeddings.
-![Possibility of Reddit Posts of the Day Belonging to Labels](picture1.png)
+![Possibility of Reddit Posts of the Day Belonging to Labels](Picture1.png)
 
 **Stock Prediction**
 Historical Data Prediction: Used a 2-layer LSTM to predict stock prices based on historical data.

@@ -11,11 +11,17 @@ Stock Data: Utilized yfinance to scrape historical stock data.
 Reddit Data: Scraped Reddit data using API.
 
 **Sentiment Analysis** Sentiment Analysis: Fine-tuned a pre-trained BERT model with labeled posts to predict sentiment labels and convert posts into embeddings.
+
 ![Possibility of Reddit Posts of the Day Belonging to Labels](Picture1.png)
 
 **Stock Prediction**
 Historical Data Prediction: Used a 2-layer LSTM to predict stock prices based on historical data.
+
+![Possibility of Reddit Posts of the Day Belonging to Labels](Picture2.png)
+
 Sentiment-Incorporated Prediction: Enhanced prediction by incorporating sentiment analysis results into the LSTM model.
+
+![Possibility of Reddit Posts of the Day Belonging to Labels](Picture3.png)
 
 ## Results and Accuracy
 Sentiment Model: Achieved a test accuracy of 77.89% within 10 epochs.

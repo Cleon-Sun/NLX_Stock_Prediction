@@ -1,6 +1,7 @@
 # GameStop Stock Prediction Using Sentiment Analysis and LSTM
 
 ## Overview
+![Possibility of Reddit Posts of the Day Belonging to Labels](mermaid-diagram-2024-03-04-143841.png)
 
 This project aims to predict GameStop's stock prices by integrating API scraping, time-series forecasting, and sentiment analysis models. The project utilizes LSTM networks for time-series forecasting and a fine-tuned BERT model for sentiment analysis, extracting public sentiment related to GameStop from Reddit.
 
